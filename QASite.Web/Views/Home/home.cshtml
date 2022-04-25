@@ -1,0 +1,24 @@
+﻿@model ViewModel
+<div class="col-md-8 offset-md-2">
+    @foreach (var Q in Model.Questions)
+    {
+        <div class="card card-body bg-light">
+            <h4><a href="/home/ViewQuestion?id=@Q.Id">@Q.Title</a></h4>
+            <div>
+                <span>
+                    Tags:
+                    @foreach (var t in Q.QuetionTags)
+                    {
+                    <a href="/home/GetTag?name=@t.Tag.Name"><span class="badge badge-primary">@t.Tag.Name</span></a>
+                    }
+                </span>
+            </div>
+            <div style="margin-top: 10px;">
+                @(Q.Text.Length < 100 ? Q.Text : Q.Text.Substring(0, 100)+"...")
+            </div>
+            <span class="mt-2">Likes: @Q.Likes.Count()</span>
+            <br>
+            <span>@Q.Answers.Count() answer(s)</span>
+        </div>
+    }
+</div>

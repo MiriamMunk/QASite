@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QASite.Web", "QASite.Web\QASite.Web.csproj", "{1821F2D4-452E-4FD5-B204-BBD9E29E4612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QASite.Data", "QASite.Data\QASite.Data.csproj", "{AC296DF2-EE0A-4715-9D12-B2C2CF7B8466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1821F2D4-452E-4FD5-B204-BBD9E29E4612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1821F2D4-452E-4FD5-B204-BBD9E29E4612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1821F2D4-452E-4FD5-B204-BBD9E29E4612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1821F2D4-452E-4FD5-B204-BBD9E29E4612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC296DF2-EE0A-4715-9D12-B2C2CF7B8466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC296DF2-EE0A-4715-9D12-B2C2CF7B8466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC296DF2-EE0A-4715-9D12-B2C2CF7B8466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC296DF2-EE0A-4715-9D12-B2C2CF7B8466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B6438C1-5F9A-4304-9455-C01B534C533D}
+	EndGlobalSection
+EndGlobal
